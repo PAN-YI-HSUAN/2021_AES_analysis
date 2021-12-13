@@ -1,0 +1,871 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5
+Date:        Mon Aug  9 12:48:37 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    305
+    Unconnected ports (LINT-28)                                   305
+
+Cells                                                             274
+    Connected to power or ground (LINT-32)                        254
+    Nets connected to multiple pins on same cell (LINT-33)         20
+--------------------------------------------------------------------------------
+
+Warning: In design 'sram_512x32', port 'rst' is not connected to any nets. (LINT-28)
+Warning: In design 'CONTROL', port 'clk' is not connected to any nets. (LINT-28)
+Warning: In design 'CONTROL', port 'rst' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'REGISTERS', port 'instruction[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SAES32', port 'fn[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_0', port 'DIFF[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_0', port 'DIFF[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW_cmp_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW_cmp_0', port 'GE_LT' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW_cmp_0', port 'GE_GT_EQ' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW_cmp_0', port 'EQ_NE' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_add_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_0', port 'GE_LT' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_0', port 'GE_GT_EQ' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_0', port 'EQ_NE' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_0_DW01_sub_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_0_DW01_sub_1', port 'DIFF[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_0_DW01_sub_1', port 'DIFF[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_0_DW01_sub_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_1_DW01_sub_2', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_1_DW01_sub_2', port 'DIFF[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_1_DW01_sub_2', port 'DIFF[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW01_sub_1_DW01_sub_2', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_1', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_1', port 'GE_LT' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_1', port 'GE_GT_EQ' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_1024x32_DW_cmp_1', port 'EQ_NE' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_0_DW01_sub_3', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_1_DW01_sub_4', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_3_DW01_sub_6', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_sub_0_DW01_sub_7', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_sub_0_DW01_sub_7', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0_DW01_sub_8', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_sub_0_DW01_sub_8', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_cmp_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_cmp_0', port 'GE_LT' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_cmp_0', port 'GE_GT_EQ' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW_cmp_0', port 'EQ_NE' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0_DW01_add_3', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'ALU_DW01_add_0_DW01_add_3', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_add_0_DW01_add_5', port 'A[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_add_0_DW01_add_5', port 'B[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_add_0_DW01_add_5', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW01_add_0_DW01_add_5', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'mulDiv_DW_mult_uns_0', port 'product[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_1_DW01_sub_10', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_1_DW01_sub_10', port 'DIFF[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_1_DW01_sub_10', port 'DIFF[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_512x32_DW01_sub_1_DW01_sub_10', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_4', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_4', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_6', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_10', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_sub_11', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_9', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU_DW01_add_9', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_428' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_375_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_316' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_320' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_318' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_353' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'sub_1_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'add_0_root_sub_0_root_sub_321' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'sram_1024x32', a pin on submodule 'gte_1311' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'sram_1024x32', a pin on submodule 'gte_1311' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_LT' is connected to logic 1. 
+Warning: In design 'sram_1024x32', a pin on submodule 'gte_1311' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_GT_EQ' is connected to logic 1. 
+Warning: In design 'sram_1024x32', a pin on submodule 'sub_1307_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'sram_1024x32', a pin on submodule 'sub_1307' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'sram_1024x32', a pin on submodule 'r372' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'sram_1024x32', a pin on submodule 'r372' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_LT' is connected to logic 1. 
+Warning: In design 'sram_1024x32', a pin on submodule 'r372' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_GT_EQ' is connected to logic 1. 
+Warning: In design 'sram_512x32', a pin on submodule 'sub_1197_2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'gt_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'gt_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_LT' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'gt_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_GT_EQ' is connected to logic 1. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[31]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[30]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[28]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[27]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[26]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[25]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[24]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[23]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[22]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[21]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[20]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[19]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[18]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[17]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[16]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[15]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[14]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[13]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[12]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[11]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[10]' is connected to logic 1. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[9]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[8]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[7]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[6]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[5]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[4]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[3]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[2]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[1]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[0]' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'add_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'sram_512x32', a pin on submodule 'sub_1197' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'sub_517' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'r379' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'r379' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_LT' is connected to logic 1. 
+Warning: In design 'ALU', a pin on submodule 'r379' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_GT_EQ' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'r377' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'mulDiv', a pin on submodule 'sub_693' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'mulDiv', a pin on submodule 'add_702_S2_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A[32]' is connected to logic 0. 
+Warning: In design 'mulDiv', a pin on submodule 'add_702_S2_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[32]' is connected to logic 0. 
+Warning: In design 'mulDiv', a pin on submodule 'add_702_S2_aco' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'RISCV', the same net is connected to more than one pin on submodule 'mem_I'. (LINT-33)
+   Net 'src_i[0]' is connected to pins 'wen', 'src[0]''.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_428'. (LINT-33)
+   Net 'n1' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_428'. (LINT-33)
+   Net 'n1261' is connected to pins 'B[2]', 'B[1]'', 'B[0]'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_375_aco'. (LINT-33)
+   Net 'n2' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_375_aco'. (LINT-33)
+   Net 'n1261' is connected to pins 'B[1]', 'B[0]''.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_316'. (LINT-33)
+   Net 'n6' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_316'. (LINT-33)
+   Net 'n1261' is connected to pins 'B[2]', 'B[1]'', 'B[0]'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'add_318'. (LINT-33)
+   Net 'n5' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'add_318'. (LINT-33)
+   Net 'n1261' is connected to pins 'B[1]', 'B[0]''.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_353'. (LINT-33)
+   Net 'n3' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_353'. (LINT-33)
+   Net 'n1261' is connected to pins 'B[1]', 'B[0]''.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_1_root_sub_0_root_sub_321'. (LINT-33)
+   Net 'n1233' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'CI'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'sub_1_root_sub_0_root_sub_321'. (LINT-33)
+   Net 'n1231' is connected to pins 'B[4]', 'B[2]'', 'B[1]', 'B[0]'.
+Warning: In design 'sram_1024x32', the same net is connected to more than one pin on submodule 'gte_1311'. (LINT-33)
+   Net 'n2' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+Warning: In design 'sram_1024x32', the same net is connected to more than one pin on submodule 'r372'. (LINT-33)
+   Net 'n6' is connected to pins 'GE_LT', 'GE_GT_EQ''.
+Warning: In design 'sram_512x32', the same net is connected to more than one pin on submodule 'gt_1197'. (LINT-33)
+   Net 'n2' is connected to pins 'TC', 'GE_LT''.
+Warning: In design 'sram_512x32', the same net is connected to more than one pin on submodule 'add_1197'. (LINT-33)
+   Net 'n4' is connected to pins 'B[31]', 'B[30]'', 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'CI'.
+Warning: In design 'sram_512x32', the same net is connected to more than one pin on submodule 'add_1197'. (LINT-33)
+   Net 'n9' is connected to pins 'B[9]', 'B[8]'', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]', 'B[0]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'r379'. (LINT-33)
+   Net 'n17' is connected to pins 'TC', 'GE_GT_EQ''.
+Warning: In design 'mulDiv', the same net is connected to more than one pin on submodule 'add_702_S2_aco'. (LINT-33)
+   Net 'n456' is connected to pins 'A[32]', 'B[32]''.
+1
